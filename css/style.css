@@ -103,3 +103,15 @@ main{
 .elements div:hover img{
     transform: scale(1.1);
 }
+
+/* ==================================================
+    media queries */
+@media(max-width:550px){
+    .elements{
+        grid-template-columns: repeat(3,70px);
+        grid-auto-rows: 70px;
+    }
+    .scores .your{
+        margin-right: 35px;
+    }
+}
